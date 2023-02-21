@@ -1,20 +1,21 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Retuen: 0
- */
+ * main - prints _putchar, followed by a new line.
+ * Return: 0
+**/
 
 int main(void)
 {
-	char c[9] = "_putchar";
-	int i = 0;
+	unsigned int i;
+	char c[] = "_putchar";
 
-	while (i < 0)
+	for (i = 0; i <= 7; i++)
 	{
 		_putchar(c[i]);
-		i++;
 	}
+
 	_putchar('\n');
+
 	return (0);
 }
